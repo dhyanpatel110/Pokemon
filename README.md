@@ -1,8 +1,9 @@
-# Interface of Pokemon Application
+# React-Pokemon Application
+Pokemon is a React web application where you can navigate the details of the different pokemon by clicking on the list of pokemon. It has the searching functionality with which you can search your pokemon.
+
+# Snapshot
 
 ![Interface of Pokemon Application](pokemon.png)
-
-# Pokemon Application React
 
 # Demo
 
