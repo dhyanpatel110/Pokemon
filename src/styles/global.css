@@ -1,0 +1,273 @@
+@font-face {
+  font-family: "OldSansBlack";
+  src: url("../assets/fonts/OldSansBlack.ttf");
+}
+@font-face {
+  font-family: "OdibeeSans-Regular";
+  src: url("../assets/fonts/OdibeeSans-Regular.ttf");
+}
+
+* {
+  font-family: "OdibeeSans-Regular";
+}
+
+/* Colors */
+:root {
+  --default_body: #fff;
+  --brand_dark: #212529;
+  --brand_green: #13ce66;
+  --brand_pink: #fe8bc4;
+  --brand_red: #ff0000;
+  --brand_yellow: #ffcb2c;
+  --brand_orange: #fd7d24;
+
+  --darkest_gray: #333333;
+  --darker_gray: #666666;
+  --dark_gray: #444444;
+  --brand_gray: #c2c2c2;
+  --light_gray: #dddddd;
+  --lighter_gray: #eeeeee;
+  --lightest_gray: #f2f2f2;
+
+  --default_rgba: rgba(238, 129, 48, 0.00001);
+  --normal: #a8a77a;
+  --fire: #ee8130;
+  --water: #6390f0;
+  --electric: #f7d02c;
+  --grass: #7ac74c;
+  --ice: #96d9d6;
+  --fighting: #c22e28;
+  --poison: #a33ea1;
+  --ground: #e2bf65;
+  --flying: #a98ff3;
+  --psychic: #f95587;
+  --bug: #a6b91a;
+  --rock: #b6a136;
+  --ghost: #735797;
+  --dragon: #6f35fc;
+  --dark: #705746;
+  --steel: #b7b7ce;
+  --fairy: #d685ad;
+
+  --card_gray: #495057;
+  --card_white: #fff;
+}
+
+body {
+  background-color: var(--lightest_gray);
+}
+
+.container-fluid {
+  max-width: 1144px;
+}
+
+*,
+*:focus,
+*:hover {
+  outline: none !important;
+}
+
+button:focus,
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.limit-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+ocus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: var(--dark_gray) !important;
+  outline: 0 none;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.animation-up-down {
+  /* animation: updown 1s ease infinite; */
+}
+
+/* Colors types */
+.normal {
+  background: linear-gradient(47deg, var(--normal), #a5a58b);
+}
+
+.fire {
+  background: linear-gradient(47deg, var(--fire), #e4af86);
+}
+
+.water {
+  background: linear-gradient(47deg, var(--water), #8ea7dd);
+}
+
+.electric {
+  background: linear-gradient(47deg, var(--electric), #ffe066);
+}
+
+.grass {
+  background: linear-gradient(47deg, var(--grass), #94dc6a);
+}
+
+.ice {
+  background: linear-gradient(47deg, var(--ice), #b4eeec);
+}
+
+.fighting {
+  background: linear-gradient(47deg, var(--fighting), #e3544f);
+}
+
+.poison {
+  background: linear-gradient(47deg, var(--poison), #c774c5);
+}
+
+.ground {
+  background: linear-gradient(47deg, var(--ground), #f8d98c);
+}
+
+.flying {
+  background: linear-gradient(47deg, var(--flying), #c7b3ff);
+}
+
+.psychic {
+  background: linear-gradient(47deg, var(--psychic), #ff7fa5);
+}
+
+.bug {
+  background: linear-gradient(47deg, var(--bug), #cfdd65);
+}
+
+.rock {
+  background: linear-gradient(47deg, var(--rock), #dbc555);
+}
+
+.ghost {
+  background: linear-gradient(47deg, var(--ghost), #997dbd);
+}
+
+.dragon {
+  background: linear-gradient(47deg, var(--dragon), #895df8);
+}
+
+.dark {
+  background: linear-gradient(47deg, var(--dark), #8d7566);
+}
+
+.steel {
+  background: linear-gradient(47deg, var(--steel), #d5d5e8);
+}
+
+.fairy {
+  background: linear-gradient(47deg, var(--fairy), #e4a6c5);
+}
+
+/* Colors types text */
+.text-normal {
+  color: var(--normal);
+}
+
+.text-fire {
+  color: var(--fire);
+}
+
+.text-water {
+  color: var(--water);
+}
+
+.text-electric {
+  color: var(--electric);
+}
+
+.text-grass {
+  color: var(--grass);
+}
+
+.text-ice {
+  color: var(--ice);
+}
+
+.text-fighting {
+  color: var(--fighting);
+}
+
+.text-poison {
+  color: var(--poison);
+}
+
+.text-ground {
+  color: var(--ground);
+}
+
+.text-flying {
+  color: var(--flying);
+}
+
+.text-psychic {
+  color: var(--psychic);
+}
+
+.text-bug {
+  color: var(--bug);
+}
+
+.text-rock {
+  color: var(--rock);
+}
+
+.text-ghost {
+  color: var(--ghost);
+}
+
+.text-dragon {
+  color: var(--dragon);
+}
+
+.text-dark {
+  color: var(--dark);
+}
+
+.text-steel {
+  color: var(--steel);
+}
+
+.text-fairy {
+  color: var(--fairy);
+}
+
+.limit-text {
+  color: var(--darkest_gray);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
