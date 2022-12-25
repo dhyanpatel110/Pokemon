@@ -13,7 +13,7 @@
 ### Clone this repo
 
 ```
-https://github.com/dhyanpatel110/pokemon.git
+git clone https://github.com/dhyanpatel110/pokemon.git
 ```
 
 ### Install All Packages
