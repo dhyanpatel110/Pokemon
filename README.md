@@ -10,6 +10,14 @@
 
 ## Project setup
 
+### Clone this repo
+
+```
+https://github.com/dhyanpatel110/pokemon.git
+```
+
+### Install All Packages
+
 ```
 npm install
 ```
