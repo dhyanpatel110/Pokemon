@@ -16,7 +16,7 @@
 git clone https://github.com/dhyanpatel110/pokemon.git
 ```
 
-### Install All Packages
+### Install dependencies
 
 ```
 npm install
