@@ -7,7 +7,7 @@ Pokemon is a React web application where you can navigate the details of the dif
 
 # Demo
 
-[Pokemon Application - Live ◀️](https://pokemon-dhyan110.netlify.app/)
+[Pokemon Application - Live ◀️](https://pokemon-dhyanpatel110.vercel.app/)
 
 ## Project setup
 
